@@ -52,7 +52,7 @@ section{
 }
 #three_one{
     margin: 0;
-    padding:.5rem;
+    padding:.6rem;
     float: left;
     width: 80%;
     height: 5rem;
@@ -138,48 +138,38 @@ span{
     height: 20rem;
     background-color: #fff;
     border: .05rem solid;
-}
-#five_top{
-    display: block;
-    width: 95%;
-    margin: 0 auto;
-    padding: .5rem;
-    height: 5rem;
-    border-style: hidden;
+    font-size: 5rem;
     
 }
+
 #top{
-    width: calc(95%/2);
+    width: calc(90%/2);
     float: left;
+    padding: .5rem;
 }
 #top_two{
     text-align: right;
+     padding: .5rem;
 }
-#five{
+#middle{
     width: 100%;
     text-align: center;
     height: 4rem;
-    border-style: hidden;
-    
-}
-#five_bottom{
-    display: block;
-    width: 95%;
-    margin: 0 auto;
-    padding: .5rem;
-    height: 4rem;
-    float: left;
-    text-align: left;
-    border-style: hidden;
-    margin-top:2rem;
+    margin-top: 2rem
 }
 #bottom{
-    width: calc(95%/2);
+    width: calc(90%/2);
     float: left;
+    margin-top:1.5rem;
+    padding: .5rem;
 }
 
 #bottom_two{
-    text-align: right
+    width: calc(90%/2);
+   float: right;
+    text-align: right;
+    margin-top: 1.5rem;
+    padding: .5rem;
 }
 footer{
     margin: 0 auto;
@@ -264,4 +254,350 @@ footer{
     border-radius: 50%;
     background-color: black;
     margin-left: 8rem;
+}
+
+@media only screen and (max-width:1310px){
+    body{
+        width: 100%;
+        background-color: aliceblue;
+    }
+    header{
+        float: left;
+        margin-left: 5rem;
+        
+    }
+    #dice_two{
+        visibility: hidden;    
+    }
+    
+    #dice_three{
+         visibility: hidden;
+    }
+    #dice_four{
+         visibility: hidden;
+    }
+    #dice_five{
+        visibility: hidden;
+    }
+    footer{
+        visibility: hidden;
+        
+    }
+}
+@media only screen and (max-width:1270px){
+    
+    body{
+        width: 100%;
+        background-color: aquamarine;
+    }
+    
+    #dice_two{
+        float: right;
+        margin-right: 5rem;
+        visibility: visible;
+    }
+   
+}
+@media only screen and (max-width:1230px){
+     body{
+        width: 100%;
+        background-color: dimgray;
+       
+    }
+    #dice_three{
+        visibility: visible;
+        float: left;
+        margin-left: 5rem;
+      
+    } 
+}
+@media only screen and (max-width:1190px){
+     body{
+        width: 100%;
+        background-color: aqua;
+    }
+    #dice_four{
+         visibility: visible;
+        float: right;
+        margin-right: 5rem;
+        transform: translateY(-110%);
+    }
+
+}
+@media only screen and (max-width:1150px){
+     body{
+        width: 100%;
+        background-color: coral;
+    }
+    header{
+        margin-top: 0;
+    }
+    #dice_two{
+        margin-top: 0;
+    }
+    #dice_three{
+        margin-top: .5rem;
+    }
+   
+    #dice_five{
+        visibility: visible;
+        margin-left: 5rem;
+        height: 20rem;
+        width: 20rem;
+        position: absolute;
+        top:395px;
+    }
+    
+}
+@media only screen and (max-width:1110px){
+     body{
+        width: 100%;
+        background-color: skyblue;
+    }
+   
+    footer{
+        visibility: visible;
+        float: right;
+        margin-right: 5rem;
+        position: relative;
+        top: -235px;
+        
+    }
+}
+@media only screen and (max-width:1050px){
+    body{
+        width: 100%;
+        background-color: cadetblue;
+        display: inline-block;
+    }
+    header{
+        float: left;
+        border-radius: 4rem;
+        width: 15rem;
+        height: 15rem;
+        line-height: 3;
+        margin: auto;
+        margin-left: 100px;
+        box-shadow: 0em 0.1em grey;
+    }
+    
+    #dice_two{
+        float: left;
+        border-radius: 4rem;
+        width: 15rem;
+        height: 15rem;
+        margin: auto;
+        margin-left: 50px;
+        box-shadow: 0em 0.8em grey;
+    }
+    #two_two{
+        position: relative;
+        top: -50px;
+    }
+    #dice_three{
+        float: right;
+        border-radius: 4rem;
+        width: 15rem;
+        height: 15rem;
+        margin: auto;
+        margin-left: 100px;
+        box-shadow: 0em 0.1em grey;
+        position: relative;
+        top: -150px;
+        margin-right: 360px;
+    }
+    #three_one{
+        border-radius: 4rem;
+        font-size: 4rem;
+        width: auto;
+        margin-left: 1rem;
+        
+    }
+    #three_two{
+        border-radius: 4rem;
+        font-size: 4rem;
+        height: 1rem;
+        position: relative;
+        top: -18px;
+    }
+    #three_three{
+        border-radius: 4rem;
+        font-size: 4rem;
+        margin-top: 1rem;
+        margin-right: .5rem;
+        float: right;
+        width: 80%;
+        height: auto;
+        
+    }
+    #dice_four{
+        float: left;
+        border-radius: 4rem;
+        width: 15rem;
+        height: 15rem;
+        margin: auto;
+        box-shadow: 0em 0.1em grey;
+        position: relative;
+        top: 50px;
+        margin-left: 200px;
+        clear: both;
+        padding: 6px;
+        font-size: 4.5rem;
+        
+    }
+    #four_one{
+        width: 40%
+    }
+    #four_two{
+        float: left;
+        
+    }
+    #four_three{
+        width: 40%;
+        position: relative;
+        top: -50px;
+        
+    }
+    #four_four{
+        position: relative;
+        top: -50px;
+    }
+    #dice_five{
+        display: inline-block;
+        border-radius: 4rem;
+        width: 15rem;
+        height: 15rem;
+        margin: 0;
+        box-shadow: 0em 0.1em grey;
+        position: relative;
+        top: 20px;
+        font-size: 4rem;
+        margin-left: 60px;
+        padding: 5px;
+
+    }
+    #middle{
+        position: relative;
+        top: -25px;
+    }
+    #bottom{
+        position: relative;
+        top: -40px;
+        margin-left: 3px;
+    }
+    #bottom_two{
+        position: relative;
+        top:-110px;
+        margin-right: 3px;
+    }
+    footer{
+        border-radius: 4rem;
+        width: 15rem;
+        height: 15rem;
+        margin: 0;
+        box-shadow: 0em 0.8em grey;
+        ;
+        margin-right: 550px;
+       margin-top: 120px;
+        padding: 1rem;
+        position:relative;
+    }
+    #six_one{
+        position: relative;
+        top: -1.5rem;
+        width: 20%;
+        height: 20%;
+    }
+    #six_two{
+        position: relative;
+        top:-15px;
+        width: 20%;
+        height: 20%;  
+        margin-left: 50px;
+    }
+    
+    #six_three{
+        position: relative;
+        top:-20px;
+        width: 20%;
+        height: 20%;
+    }
+    #six_four{
+        position: relative;
+        top:-18px;
+        width: 20%;
+        height: 20%;
+        margin-left: 50px;
+    }
+    #six_five{
+        position: relative;
+        top:-20px;
+        width: 20%;
+        height: 20%;
+    }
+    #six_six{
+        position: relative;
+        top:-18px;
+        width: 20%;
+        height: 20%;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width:975px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        
+    }
+    header{
+        float: left;
+        margin-left:2rem;
+        border-radius: 4rem;
+        box-shadow: 
+    }
+    #dice_two{
+        float:right;
+        margin-right: 2rem;
+        border-radius: 4rem;
+    }
+    #dice_three{
+        float: none;
+        border-radius: 4rem;
+    }
+    #three_one{
+       
+        border-radius: 4rem;
+    }
+    #three_three{
+        border-radius: 4rem;
+    }
+    #dice_four{
+        float: right;
+        margin-right: 2rem;
+        border-radius: 4rem;
+    }
+    #dice_five{
+    
+        margin: auto;
+        margin-left: 30rem;
+        top: 65rem;
+        border-radius: 4rem;
+        position: absolute;
+        
+    }
+    #five_top{
+        border-radius: 4rem;
+    }
+    #five_bottom{
+        border-radius: 4rem;
+    }
+    
+   footer{
+        float: left;
+        margin-top: 25rem;
+       border-radius: 4rem;
+    }
 }
