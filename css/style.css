@@ -438,9 +438,18 @@ footer{
         margin: auto;
         box-shadow: 0em 0.1em grey;
         position: relative;
+<<<<<<< HEAD
         top: 40px;
         margin-left: 100px;
         clear: both;
+=======
+        top: 50px;
+        margin-left: 200px;
+        clear: both;
+        padding: 6px;
+        font-size: 4.5rem;
+        
+>>>>>>> refs/remotes/origin/master
     }
     #four_one{
         width: 40%
@@ -459,7 +468,92 @@ footer{
         position: relative;
         top: -50px;
     }
+<<<<<<< HEAD
 }
+=======
+    #dice_five{
+        display: inline-block;
+        border-radius: 4rem;
+        width: 15rem;
+        height: 15rem;
+        margin: 0;
+        box-shadow: 0em 0.1em grey;
+        position: relative;
+        top: 20px;
+        font-size: 4rem;
+        margin-left: 60px;
+        padding: 5px;
+
+    }
+    #middle{
+        position: relative;
+        top: -25px;
+    }
+    #bottom{
+        position: relative;
+        top: -40px;
+        margin-left: 3px;
+    }
+    #bottom_two{
+        position: relative;
+        top:-110px;
+        margin-right: 3px;
+    }
+    footer{
+        border-radius: 4rem;
+        width: 15rem;
+        height: 15rem;
+        margin: 0;
+        box-shadow: 0em 0.8em grey;
+        ;
+        margin-right: 550px;
+       margin-top: 120px;
+        padding: 1rem;
+        position:relative;
+    }
+    #six_one{
+        position: relative;
+        top: -1.5rem;
+        width: 20%;
+        height: 20%;
+    }
+    #six_two{
+        position: relative;
+        top:-15px;
+        width: 20%;
+        height: 20%;  
+        margin-left: 50px;
+    }
+    
+    #six_three{
+        position: relative;
+        top:-20px;
+        width: 20%;
+        height: 20%;
+    }
+    #six_four{
+        position: relative;
+        top:-18px;
+        width: 20%;
+        height: 20%;
+        margin-left: 50px;
+    }
+    #six_five{
+        position: relative;
+        top:-20px;
+        width: 20%;
+        height: 20%;
+    }
+    #six_six{
+        position: relative;
+        top:-18px;
+        width: 20%;
+        height: 20%;
+        margin-left: 50px;
+    }
+}
+
+>>>>>>> refs/remotes/origin/master
 @media only screen and (max-width:975px){
     body{
         width: 100%;
