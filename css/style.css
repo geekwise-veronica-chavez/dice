@@ -128,22 +128,139 @@ span{
     text-align: right
    
 }
-#dice_six{
+
+
+#dice_five{
     margin: 0 auto;
     margin-top: 2rem;
     padding: 0;
     width: 20rem;
     height: 20rem;
-    background-color: cadetblue;
+    background-color: #fff;
     border: .05rem solid;
 }
+#five_top{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    padding: .5rem;
+    height: 5rem;
+    border-style: hidden;
+    
+}
+#top{
+    width: calc(95%/2);
+    float: left;
+}
+#top_two{
+    text-align: right;
+}
+#five{
+    width: 100%;
+    text-align: center;
+    height: 4rem;
+    border-style: hidden;
+    
+}
+#five_bottom{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    padding: .5rem;
+    height: 4rem;
+    float: left;
+    text-align: left;
+    border-style: hidden;
+    margin-top:2rem;
+}
+#bottom{
+    width: calc(95%/2);
+    float: left;
+}
+
+#bottom_two{
+    text-align: right
+}
 footer{
-     margin: 0 auto;
+    margin: 0 auto;
     margin-top: 2rem;
     padding: 0;
     width: 20rem;
     height: 20rem;
-    background-color: cornflowerblue;
-      border: .05rem solid;
+    background-color: #fff;
+    border: .05rem solid;
+    clear: both;
     
+}
+#six_one{
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: .3rem;
+    width: 20%;
+    float: left;
+    height:4rem;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#six_two{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: .3rem;
+    width: 20%;
+    height:4rem;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 8rem;
+}
+
+#six_three{
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: .3rem;
+    width: 20%;
+    float: left;
+    height:4rem;
+    border-radius: 50%;
+    background-color: black;
+}
+#six_four{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: .3rem;
+    width: 20%;
+    height:4rem;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 8rem;
+   
+}
+#six_five{
+   display: inline-block;
+    margin: 0 auto;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: .3rem;
+    width: 20%;
+    float: left;
+    height:4rem;
+    border-radius: 50%;
+    background-color: black;
+}
+#six_six{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: .3rem;
+    width: 20%;
+    height:4rem;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 8rem;
 }
