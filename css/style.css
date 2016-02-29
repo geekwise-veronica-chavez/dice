@@ -1,14 +1,20 @@
 html,body{
     font-size:62.5%;
+    position: relative;
 }
 header{
     margin: 0 auto;
+    text-align: center;
     margin-top: 2rem;
     padding: 0;
     width: 20rem;
     height: 20rem;
     display: block;
-    background-color:bisque;
+    background-color:#fff;
+    font-size: 5rem;
+    border: .05rem solid;
+    line-height: 20rem;
+  
 }
 #dice_two{
     margin: 0 auto;
@@ -16,7 +22,22 @@ header{
     padding: 0;
     width: 20rem;
     height: 20rem;
-    background-color: antiquewhite;
+    background-color: #fff;
+    border: .05rem solid;
+}
+#two_one{
+    margin: 0;
+    padding:1rem ;
+    font-size:5rem;
+    
+}
+#two_two{
+    margin: 0;
+    padding: 1rem;
+    font-size:5rem;
+    float: right;
+    margin-top: 5rem;
+    
 }
 section{
     margin: 0 auto;
@@ -24,7 +45,38 @@ section{
     padding: 0;
     width: 20rem;
     height: 20rem;
-    background-color: aqua;
+    background-color: #fff;
+    border: .05rem solid;
+    font-size: 5rem;
+    clear: both;
+}
+#three_one{
+    margin: 0;
+    padding:.5rem;
+    float: left;
+    width: 80%;
+    height: 5rem;
+    border-style: hidden
+}
+#three_two{
+    margin: 0 auto;
+  
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    height: 6rem;
+    border-style: hidden;
+    margin-top:7rem;
+  
+}
+#three_three{
+    margin: 0;
+    padding: .5rem;
+    width:90%;
+    height: 5rem;
+
+    text-align: right;
+    border-style: hidden
 }
 span{
     margin: 0 auto;
@@ -33,7 +85,48 @@ span{
     width: 20rem;
     height: 20rem;
     display: block;
-    background-color: aquamarine;
+    background-color: #fff;
+    border: .05rem solid;
+    font-size: 5rem;
+    clear: both;
+}
+#four_one{
+    width: 45%;
+    height: 5rem;
+    margin: 0;
+    padding:.5rem;
+    float: left;
+   
+    
+}
+#four_two{
+    width: 45%;
+    height: 5rem;
+    margin: 0;
+    padding: .5rem;
+    float: right;
+    text-align: right;
+   
+}
+#four_three{
+    width: 45%;
+    height: 5rem;
+    margin: 0;
+    padding:.5rem;
+    margin-top: 7rem;
+    float: left;
+   
+    
+}
+#four_four{
+     width: 45%;
+    height: 5rem;
+    margin: 0;
+    padding: .5rem;
+    float: right;
+    margin-top: 7rem;
+    text-align: right
+   
 }
 #dice_six{
     margin: 0 auto;
@@ -42,6 +135,7 @@ span{
     width: 20rem;
     height: 20rem;
     background-color: cadetblue;
+    border: .05rem solid;
 }
 footer{
      margin: 0 auto;
@@ -50,5 +144,6 @@ footer{
     width: 20rem;
     height: 20rem;
     background-color: cornflowerblue;
+      border: .05rem solid;
     
 }
