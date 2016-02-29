@@ -1,0 +1,54 @@
+html,body{
+    font-size:62.5%;
+}
+header{
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0;
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    background-color:bisque;
+}
+#dice_two{
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0;
+    width: 20rem;
+    height: 20rem;
+    background-color: antiquewhite;
+}
+section{
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0;
+    width: 20rem;
+    height: 20rem;
+    background-color: aqua;
+}
+span{
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0;
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    background-color: aquamarine;
+}
+#dice_six{
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0;
+    width: 20rem;
+    height: 20rem;
+    background-color: cadetblue;
+}
+footer{
+     margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0;
+    width: 20rem;
+    height: 20rem;
+    background-color: cornflowerblue;
+    
+}
