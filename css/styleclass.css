@@ -1,0 +1,30 @@
+html,body{
+    font-size: 62.5%;
+}
+.dice_one{
+    background-color: red;
+}
+.dice{
+    margin: 0 auto;
+    padding: 0;
+    width: 10rem;
+    height: 10rem;
+    border: black solid .5rem;
+    border-radius: 3rem;  
+    margin-top: 2rem;
+}
+.dot{
+    font-size: 3rem;
+    padding: .5rem;
+    box-sizing: border-box;
+    
+}
+.center{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+dice_two{
+    background-color: green;
+}
