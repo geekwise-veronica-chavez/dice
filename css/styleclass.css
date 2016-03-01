@@ -25,6 +25,10 @@ html,body{
     top: 50%;
     transform: translateY(-50%);
 }
-dice_two{
+.dice_two{
     background-color: green;
+}
+.top{
+    width: 80%;
+    padding: .5rem;
 }
