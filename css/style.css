@@ -631,7 +631,7 @@ footer{
 }
 @media only screen and (max-width:550px){
     body{
-        background-color: #fff;
+        
     }
     header{
         position: absolute;
@@ -645,7 +645,7 @@ footer{
         transform: translate(20px,350px);
     }
     #dice_four{
-        background-color: red;
+        background-color: #fff;
         top:0;
         transform: translate(170px,300px);
         position: absolute;
