@@ -367,28 +367,24 @@ footer{
 @media only screen and (max-width:1090px){
     body{
         width: 100%;
-        background-color: cadetblue;
+        background-color: #fff;
         display: inline-block;
     }
     header{
-        float: left;
         border-radius: 4rem;
         width: 15rem;
         height: 15rem;
         line-height: 3;
-        margin: auto;
-        margin-left: 100px;
+        transform: translateX(18rem);
         box-shadow: 0em 0.1em grey;
     }
     
     #dice_two{
-        float: left;
         border-radius: 4rem;
         width: 15rem;
         height: 15rem;
-        margin: auto;
-        margin-left: 50px;
         box-shadow: 0em 0.8em grey;
+        transform: translateX(-38rem)
     }
     #two_two{
         position: relative;
@@ -400,11 +396,11 @@ footer{
         width: 15rem;
         height: 15rem;
         margin: auto;
-        margin-left: 100px;
         box-shadow: 0em 0.1em grey;
         position: relative;
         top: -150px;
-        margin-right: 360px;
+        transform: translate(-20rem);
+        
     }
     #three_one{
         border-radius: 4rem;
@@ -431,18 +427,17 @@ footer{
         
     }
     #dice_four{
-        float: left;
+        
         border-radius: 4rem;
         width: 15rem;
         height: 15rem;
-        margin: auto;
         box-shadow: 0em 0.1em grey;
         position: relative;
-        top: 50px;
-        margin-left: 200px;
+        top: 110px;
         clear: both;
         padding: 6px;
         font-size: 4.5rem;
+        margin: auto;
         
     }
     #four_one{
@@ -470,10 +465,9 @@ footer{
         margin: 0;
         box-shadow: 0em 0.1em grey;
         position: relative;
-        top: 20px;
         font-size: 4rem;
-        margin-left: 60px;
         padding: 5px;
+        transform: translate(420px,-160px);
 
     }
     #middle{
@@ -497,10 +491,10 @@ footer{
         margin: 0;
         box-shadow: 0em 0.8em grey;
         ;
-        margin-right: 550px;
-       margin-top: 120px;
+        float: left;
         padding: 1rem;
         position:relative;
+        margin-left: 35rem;
     }
     #six_one{
         position: relative;
@@ -554,40 +548,117 @@ footer{
         
     }
     header{
-        margin-left:2rem;
-        border-radius: 4rem;
-        
+        margin-top: 20rem;
+        transform:rotate(45deg);
+         
     }
     #dice_two{
-        margin-left: 7rem;
+        margin:0;
+        float: left;
+        transform:rotate(45deg);
        
     }
     #dice_three{
-        padding: 6px;
-        transform: translate(25px,)
-        
+        padding: 6px; 
+        transform: translate(-325px,-150px);
+          
     }
    
     #dice_four{
-        margin: auto;
-        margin-top: 5rem;
-        margin-left: 2rem
+            margin-right: 100px;
+            position: relative;
+            top: -275px;
+     transform:rotate(45deg);
        
     }
     #dice_five{
-    
-        margin: auto;
-        margin-top: 6.3rem;
-        transform: translate(250px, 0)
+        transform: translate(0,-130px);
         
     }
     
    footer{
         position: relative;
-       transform: translate( 220px,-185px);
+       transform: translate( -150px,-15px);
     
     }
 }
-@media only screen and (max-width:700px){
-    body{}
+@media only screen and (max-width:890px){
+    body{
+        background-color: red;
+    }
+    header{
+        transform: translate(155px,205px);
+    }
+    #dice_three{
+        transform: translate(-30rem);
+    }
+    #dice_four{
+        float: left;
+        top:-500px;
+    }
+    #dice_five{
+        transform: rotate(45deg);
+    }
+    footer{
+        transform: translate(-260px,-250px)
+    }
+}
+@media only screen and (max-width:650px){
+    body{
+        background-color: green;
+    }
+    header{
+        transform: translate(-10px,-200px);
+    }
+    #dice_two{
+        transform: translate(20px,100px);
+        
+    }
+    #dice_three{
+        transform: translate(-320px,-7px);
+        
+    }
+    #dice_four{
+        transform: translate(280px,250px);
+    }
+    #dice_five{
+        transform: translate(-320px,-10px);
+    }
+    footer{
+        transform: translate(-120px,-2px);
+    }
+    
+}
+@media only screen and (max-width:550px){
+    body{
+        background-color: #fff;
+    }
+    header{
+        position: absolute;
+    }
+    #dice_two{
+        transform: translate(150px,100px);
+        position: absolute;
+    }
+    #dice_three{
+        position: absolute;
+        transform: translate(20px,350px);
+    }
+    #dice_four{
+        background-color: red;
+        top:0;
+        transform: translate(170px,300px);
+        position: absolute;
+    }
+    #dice_five{
+        position: absolute;
+        margin-left: 320px;
+    }
+    footer{
+       top: 480px; 
+        margin: 0;
+        margin-left: 26rem;
+        position: absolute;
+    }
+    
 }
